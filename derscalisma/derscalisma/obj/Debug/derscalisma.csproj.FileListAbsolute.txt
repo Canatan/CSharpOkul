@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\derscalisma\derscalisma\bin\Debug\derscalisma.exe.config
+C:\Users\canat\source\repos\derscalisma\derscalisma\bin\Debug\derscalisma.exe
+C:\Users\canat\source\repos\derscalisma\derscalisma\bin\Debug\derscalisma.pdb
+C:\Users\canat\source\repos\derscalisma\derscalisma\obj\Debug\derscalisma.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\derscalisma\derscalisma\obj\Debug\derscalisma.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\derscalisma\derscalisma\obj\Debug\derscalisma.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\derscalisma\derscalisma\obj\Debug\derscalisma.exe
+C:\Users\canat\source\repos\derscalisma\derscalisma\obj\Debug\derscalisma.pdb
