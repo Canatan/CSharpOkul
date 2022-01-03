@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\bin\Debug\2sayıtoplamı.exe.config
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\bin\Debug\2sayıtoplamı.exe
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\bin\Debug\2sayıtoplamı.pdb
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\obj\Debug\2sayıtoplamı.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\obj\Debug\2sayıtoplamı.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\obj\Debug\2sayıtoplamı.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\obj\Debug\2sayıtoplamı.exe
+C:\Users\canat\source\repos\2sayıtoplamı\2sayıtoplamı\obj\Debug\2sayıtoplamı.pdb
