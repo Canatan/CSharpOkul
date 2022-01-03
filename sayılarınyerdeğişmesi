@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace deneme
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int binler;
+            int yuzler;
+            int onlar;
+            int birler;
+            int sonuc;
+
+            Console.WriteLine("'abcd' formatında bir sayı giriniz");
+            int sayi = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("1- Rakamların toplamını hesapla");
+            Console.WriteLine("2- Konsolda numarayı ters sırada yazdır");
+            Console.WriteLine("3- Son rakamı ilk konuma koy");
+            Console.WriteLine("4- İkinci ve üçüncü basamakları değiştir");
+            int menu = int.Parse(Console.ReadLine());
+
+
+            switch (menu)
+            {
+                case 1:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    sonuc = binler + yuzler + onlar + birler;
+                    Console.WriteLine("Sayilarin Toplami " + sonuc);
+                    break;
+                    
+                case 2:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    Console.WriteLine("{0}{1}{2}{3}", birler, onlar, yuzler, binler);
+
+                    break;
+                case 3:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    Console.WriteLine("{0}{1}{2}{3}", birler, yuzler, onlar, birler);
+
+                    break;
+                case 4:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    Console.WriteLine("{0}{1}{2}{3}", binler, onlar, yuzler, birler);
+                    break;
+
+
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
