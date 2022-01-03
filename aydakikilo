@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace aydunya17
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Kilonu gir oç");
+            int kilo = int.Parse(Console.ReadLine());
+
+            int ay;
+            ay = kilo * 17 / 100;
+            int toplamkilo;
+
+            Console.WriteLine("Aydaki kilon" + ay);
+            Console.ReadLine();
+
+
+        }
+    }
+}
