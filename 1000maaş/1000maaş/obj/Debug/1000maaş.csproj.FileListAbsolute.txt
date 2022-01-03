@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\1000maaş\1000maaş\bin\Debug\1000maaş.exe.config
+C:\Users\canat\source\repos\1000maaş\1000maaş\bin\Debug\1000maaş.exe
+C:\Users\canat\source\repos\1000maaş\1000maaş\bin\Debug\1000maaş.pdb
+C:\Users\canat\source\repos\1000maaş\1000maaş\obj\Debug\1000maaş.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\1000maaş\1000maaş\obj\Debug\1000maaş.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\1000maaş\1000maaş\obj\Debug\1000maaş.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\1000maaş\1000maaş\obj\Debug\1000maaş.exe
+C:\Users\canat\source\repos\1000maaş\1000maaş\obj\Debug\1000maaş.pdb
