@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1000maaş
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sonuc;
+            Console.WriteLine("Bir Sayi Giriniz");
+            int maas = int.Parse(Console.ReadLine());
+            Console.WriteLine("Belirlenecek Yüzdeyi Giriniz");
+            int yuzde = int.Parse(Console.ReadLine());
+
+            sonuc = maas * yuzde / 100 * 5 + maas;
+
+            Console.WriteLine("Maaşınızın Zamlı Hali : {0}", sonuc);
+            Console.ReadLine();
+
+        }
+    }
+}
