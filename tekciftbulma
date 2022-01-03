@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace tekcift
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Lütfen Bir Sayı Giriniz");
+
+            int sayi = int.Parse(Console.ReadLine());
+            if (sayi % 2 == 0)
+            {
+                Console.WriteLine("{0} Sayısı Çifttir", sayi);
+            }
+            else
+            {
+                Console.WriteLine("{0} Sayısı Tektir", sayi);
+            };
+            Console.ReadLine();
+
+        }
+    }
+}
