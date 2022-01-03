@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2sayıtoplamı
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sonuc;
+            Console.WriteLine("İki Adet Sayı Giriniz");
+            int sayi1 = int.Parse(Console.ReadLine());
+            int sayi2 = int.Parse(Console.ReadLine());
+
+            sonuc = sayi1 + sayi2;
+
+            Console.WriteLine("2 Sayinin Toplamı : {0}", sonuc);
+            Console.ReadLine();
+
+
+
+        }
+    }
+}
