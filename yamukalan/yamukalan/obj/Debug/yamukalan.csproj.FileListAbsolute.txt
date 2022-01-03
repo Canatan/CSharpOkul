@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\yamukalan\yamukalan\bin\Debug\yamukalan.exe.config
+C:\Users\canat\source\repos\yamukalan\yamukalan\bin\Debug\yamukalan.exe
+C:\Users\canat\source\repos\yamukalan\yamukalan\bin\Debug\yamukalan.pdb
+C:\Users\canat\source\repos\yamukalan\yamukalan\obj\Debug\yamukalan.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\yamukalan\yamukalan\obj\Debug\yamukalan.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\yamukalan\yamukalan\obj\Debug\yamukalan.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\yamukalan\yamukalan\obj\Debug\yamukalan.exe
+C:\Users\canat\source\repos\yamukalan\yamukalan\obj\Debug\yamukalan.pdb
