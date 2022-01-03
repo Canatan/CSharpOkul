@@ -1,0 +1,7 @@
+C:\Users\canat\source\repos\30to1\30to1\bin\Debug\30to1.exe.config
+C:\Users\canat\source\repos\30to1\30to1\bin\Debug\30to1.exe
+C:\Users\canat\source\repos\30to1\30to1\bin\Debug\30to1.pdb
+C:\Users\canat\source\repos\30to1\30to1\obj\Debug\30to1.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\30to1\30to1\obj\Debug\30to1.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\30to1\30to1\obj\Debug\30to1.exe
+C:\Users\canat\source\repos\30to1\30to1\obj\Debug\30to1.pdb
