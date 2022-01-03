@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dikucgen
+{
+    class Program
+    {
+        public static bool sonuc(int kisa, int uzun, int hipo)
+        {
+            if ((kisa * kisa) + (uzun * uzun) == hipo * hipo)
+                return true;
+            else
+                return false;
+
+        }
+
+        static void Main(string[] args)
+        {
+            //dısardan aldıgı 3 kenar uzunlugu kullaranark üçgenin dik üçgen olup olmadıgını geriye döndüren metod :
+            Console.Write("kisa kenari giriniz: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("uzun kenar giriniz:");
+            int b = int.Parse(Console.ReadLine());
+            Console.Write("hipotenüs uzunlugunu giriniz:");
+            int c = int.Parse(Console.ReadLine());
+            if (sonuc(a, b, c) == true)
+                Console.Write("ücgeniniz dik ücgendir ");
+            else Console.Write("ücgeniniz dik ücgen degildir ");
+            Console.ReadLine();
+
+        }
+    }
+}
