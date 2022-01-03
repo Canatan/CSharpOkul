@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\canatan\canatan\bin\Debug\canatan.exe.config
+C:\Users\canat\source\repos\canatan\canatan\bin\Debug\canatan.exe
+C:\Users\canat\source\repos\canatan\canatan\bin\Debug\canatan.pdb
+C:\Users\canat\source\repos\canatan\canatan\obj\Debug\canatan.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\canatan\canatan\obj\Debug\canatan.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\canatan\canatan\obj\Debug\canatan.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\canatan\canatan\obj\Debug\canatan.exe
+C:\Users\canat\source\repos\canatan\canatan\obj\Debug\canatan.pdb
