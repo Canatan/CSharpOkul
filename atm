@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace derscalisma
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Lütfen Bakiye Giriniz");
+            int bakiye = int.Parse(Console.ReadLine());
+
+            int yenipara;
+            
+
+
+
+            
+            m:
+                Console.WriteLine("1-Para Çekmek İçin");
+                Console.WriteLine("2-Para Yatırmak İçin");
+                Console.WriteLine("3-Yeni Bakiye Sorgulama");
+                Console.WriteLine("4-Çıkış Yap");
+                int menu = int.Parse(Console.ReadLine());
+
+
+            switch (menu)
+            {
+                case 1:
+
+                    Console.WriteLine("Çekmek İstediğiniz Miktarı Giriniz");
+                    int paracek = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("{0} Miktarında Para Çektiniz ", paracek);
+                    yenipara = bakiye - paracek;
+                    Console.WriteLine("Yeni Bakiyeniz : " + yenipara);
+
+                    break;
+                case 2:
+
+                    Console.WriteLine("Yatırmak İstediğiniz Miktarı Girin");
+                    int yeniparra = int.Parse(Console.ReadLine());
+                    int yenibakiye;
+                    yenibakiye = bakiye + yeniparra;
+                    Console.WriteLine("Yeni para miktarı" + yenibakiye);
+
+
+                    break;
+                case 3:
+
+                    Console.WriteLine("Bakiyeniz : " + bakiye);
+
+
+                    break;
+                case 4:
+                    Console.WriteLine("Çıkış Yapılıyor");
+                    break;
+
+
+            }
+            goto m;
+            Console.ReadLine();
+        }
+                
+            
+            
+
+
+        
+    }
+}
