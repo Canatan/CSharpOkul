@@ -1,0 +1,540 @@
+				
+					BİR SAYIYI DECİMALDEN BİNARYE CEVİRME
+
+  	    
+
+	    Console.WriteLine("bir sayı giriniz");
+            int value = int.Parse(Console.ReadLine());
+            string binary2 = Convert.ToString(value, 2);
+            Console.WriteLine(binary2);
+
+
+					BİR SAYIYI  BİNARYDEN DECİMALE CEVİRME
+
+	    Console.WriteLine("binary bir sayı giriniz");
+            string binary = Console.ReadLine();
+            long decimal2 = Convert.ToInt64(binary, 2);
+            Console.WriteLine(decimal2);
+
+
+
+
+					BANKNOT HESAPLAMA
+
+
+ 	    Console.WriteLine("Paranizi girin ");
+            int para = int.Parse(Console.ReadLine());
+            int ikiyuzluk = para / 200;
+            para = para - (ikiyuzluk * 200);
+
+            int yuzluk = para / 100;
+            para = para - (yuzluk * 100);
+
+            int ellilik = para / 50;
+            para = para - (ellilik * 50);
+
+            int yirmilik = para / 20;
+            para = para - (yirmilik * 20);
+
+            int onluk = para / 10;
+            para = para - (onluk * 10);
+
+            int beslik = para / 5;
+            para = para - (beslik * 5);
+
+            int birlik = para / 1;
+            para = para - (birlik * 1);
+
+            Console.WriteLine("{0} tane 200'luk var", ikiyuzluk);
+            Console.WriteLine("{0} tane 100'luk var", yuzluk);
+            Console.WriteLine("{0} tane 50'lik var", ellilik);
+            Console.WriteLine("{0} tane 20'lik var", yirmilik);
+            Console.WriteLine("{0} tane 10'luk var", onluk);
+            Console.WriteLine("{0} tane 5'lik var", beslik);
+            Console.WriteLine("{0} tane 1'lik var", birlik);
+            Console.ReadKey();
+
+
+					İF  KULLANIMLI HALİ
+
+
+ 	   int sayi;
+           int b200;
+           int b100;
+           int b50;
+           int b20;
+           int b10;
+           int b5;
+           int b1;
+            Console.WriteLine(" istediginiz miktarı yazınız");
+            sayi=int.Parse(Console.ReadLine());
+            if (sayi >= 200) ;
+            {
+                b200 = sayi / 200;
+                sayi = sayi % 200;
+            }
+            if (sayi >= 100) ;
+            {
+                b100 = sayi / 100;
+                sayi = sayi % 100;
+            }
+            if (sayi >= 50) ;
+            {
+                b50 = sayi / 50;
+                sayi = sayi % 50;
+            }
+            if (sayi >= 20) ;
+            {
+                b20 = sayi / 20;
+                sayi = sayi % 20;
+            }
+            if (sayi >= 10) ;
+            {
+                b10 = sayi / 10;
+                sayi = sayi % 10;
+            }
+            if (sayi >= 5) ;
+            {
+                b5 = sayi / 5;
+                sayi = sayi % 5;
+            }
+            if (sayi >= 1) ;
+            {
+                b1 = sayi / 1;
+                sayi = sayi % 1;
+            }
+            Console.WriteLine("200'lük banknot adeti : {0}", b200);
+            Console.WriteLine("100'lük banknot adeti : {0}", b100);
+            Console.WriteLine("50'lik banknot adeti : {0}", b50);
+            Console.WriteLine("20'lik banknot adeti : {0}", b20);
+            Console.WriteLine("10'luk banknot adeti : {0}", b10);
+            Console.WriteLine("5'lik banknot adeti : {0}", b5);
+            Console.WriteLine("1'lik banknot adeti : {0}", b1);
+            Console.ReadKey();
+				
+
+
+						GİRİLEN EN BÜYÜK SAYIYI BULAN KOD
+
+
+ 	    int kontrol, sayi1, sayi2, sayi3, sayi4;
+
+            Console.Write("1. Sayıyı Giriniz:");
+            sayi1 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("2. Sayıyı Giriniz:");
+            sayi2 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("3. Sayıyı Giriniz:");
+            sayi3 = Convert.ToInt16(Console.ReadLine());
+            Console.Write("4. Sayıyı Giriniz:");
+            sayi4 = Convert.ToInt16(Console.ReadLine());
+
+            kontrol = sayi1;
+            if (sayi2 > kontrol)
+            {
+                kontrol = sayi2;
+            }
+            if (sayi3 > kontrol)
+            {
+                kontrol = sayi3;
+            }
+            if (sayi4 > kontrol)
+            {
+                kontrol = sayi4;
+            }
+
+            Console.WriteLine("En Büyük Sayı:" + kontrol);
+            Console.ReadKey();
+
+
+						SAYIYI YAZIYA CEVİRME 
+
+ 	    Console.WriteLine("10k altı bir sayı giriniz");
+            long sayi = long.Parse(Console.ReadLine());
+            long sonuc;
+            long sonuc2;
+            long sonuc3;
+            long sonuc4;
+            if (sayi < 10000)
+            {
+                sonuc = sayi / 1000;
+
+                switch (Math.Abs(sonuc))
+                {
+                    case 0:
+                        Console.Write("");
+                        break;
+                    case 1:
+                        Console.Write("bin ");
+                        break;
+                    case 2:
+                        Console.Write("ikibin ");
+                        break;
+                    case 3:
+                        Console.Write("üçbin ");
+                        break;
+                    case 4:
+                        Console.Write("dörtbin ");
+                        break;
+                    case 5:
+                        Console.Write("beşbin ");
+                        break;
+                    case 6:
+                        Console.Write("altıbin ");
+                        break;
+                    case 7:
+                        Console.Write("yedibin ");
+                        break;
+                    case 8:
+                        Console.Write("sekizbin ");
+                        break;
+                    case 9:
+                        Console.Write("dokuzbin ");
+                        break;
+                    default:
+                        Console.Write("Dogru deger giriniz");
+                        break;
+                }
+                if (sayi > 100)
+                {
+                    sonuc2 = sayi % 1000 / 100;
+
+                    switch (Math.Abs(sonuc2))
+                    {
+                        case 0:
+                            Console.Write("");
+                            break;
+                        case 1:
+                            Console.Write("yüz ");
+                            break;
+                        case 2:
+                            Console.Write("ikiyüz ");
+                            break;
+                        case 3:
+                            Console.Write("üçyüz ");
+                            break;
+                        case 4:
+                            Console.Write("dörtyüz ");
+                            break;
+                        case 5:
+                            Console.Write("beşyüz ");
+                            break;
+                        case 6:
+                            Console.Write("altıyüz ");
+                            break;
+                        case 7:
+                            Console.Write("yediyüz ");
+                            break;
+                        case 8:
+                            Console.Write("sekizyüz ");
+                            break;
+                        case 9:
+                            Console.Write("dokuzyüz ");
+                            break;
+                        default:
+                            Console.Write("Dogru deger giriniz");
+                            break;
+                    }
+                }
+
+
+                if (sayi > 10)
+                {
+                    sonuc3 = sayi % 100 / 10;
+                    switch (sonuc3)
+                    {
+                        case 0:
+                            Console.Write("");
+                            break;
+                        case 1:
+                            Console.Write("on ");
+                            break;
+                        case 2:
+                            Console.Write("yirmi ");
+                            break;
+                        case 3:
+                            Console.Write("otuz ");
+                            break;
+                        case 4:
+                            Console.Write("kırk ");
+                            break;
+                        case 5:
+                            Console.Write("elli ");
+                            break;
+                        case 6:
+                            Console.Write("altmış ");
+                            break;
+                        case 7:
+                            Console.Write("yetmiş ");
+                            break;
+                        case 8:
+                            Console.Write("seksen ");
+                            break;
+                        case 9:
+                            Console.Write("doksan ");
+                            break;
+                        default:
+                            Console.Write("Dogru deger giriniz");
+                            break;
+                    }
+                }
+
+
+                if (sayi != 0)
+                {
+                    sonuc4 = sayi % 10 / 1;
+                    switch (sonuc4)
+                    {
+                        case 0:
+                            Console.WriteLine("");
+                            break;
+                        case 1:
+                            Console.WriteLine("bir TL Paranız bulunmaktadır");
+                            break;
+                        case 2:
+                            Console.WriteLine("iki TL Paranız bulunmaktadır");
+                            break;
+                        case 3:
+                            Console.WriteLine("üç TL Paranız bulunmaktadır");
+                            break;
+                        case 4:
+                            Console.WriteLine("dört TL Paranız bulunmaktadır");
+                            break;
+                        case 5:
+                            Console.WriteLine("beş TL Paranız bulunmaktadır");
+                            break;
+                        case 6:
+                            Console.WriteLine("altı TL Paranız bulunmaktadır");
+                            break;
+                        case 7:
+                            Console.WriteLine("yedi TL Paranız bulunmaktadır");
+                            break;
+                        case 8:
+                            Console.WriteLine("sekiz TL Paranız bulunmaktadır");
+                            break;
+                        case 9:
+                            Console.WriteLine("dokuz TL Paranız bulunmaktadır");
+                            break;
+                        default:
+                            Console.WriteLine("Dogru deger giriniz");
+                            break;
+                    }
+                }
+
+
+
+
+            }
+            Console.ReadKey();
+
+			
+
+
+
+
+	    int binler;
+            int yuzler;
+            int onlar;
+            int birler;
+            int sonuc;
+
+            Console.WriteLine("'abcd' formatında bir sayı giriniz");
+            int sayi = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("1- Rakamların toplamını hesapla");
+            Console.WriteLine("2- Konsolda numarayı ters sırada yazdır");
+            Console.WriteLine("3- Son rakamı ilk konuma koy");
+            Console.WriteLine("4- İkinci ve üçüncü basamakları değiştir");
+            int menu = int.Parse(Console.ReadLine());
+
+
+            switch (menu)
+            {
+                case 1:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    sonuc = binler + yuzler + onlar + birler;
+                    Console.WriteLine("Sayilarin Toplami " + sonuc);
+                    break;
+
+                case 2:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    Console.WriteLine("{0}{1}{2}{3}", birler, onlar, yuzler, binler);
+
+                    break;
+                case 3:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    Console.WriteLine("{0}{1}{2}{3}", birler, yuzler, onlar, birler);
+
+                    break;
+                case 4:
+                    binler = sayi / 1000;
+                    yuzler = sayi % 1000 / 100;
+                    onlar = sayi % 100 / 10;
+                    birler = sayi % 10 / 1;
+
+                    Console.WriteLine("{0}{1}{2}{3}", binler, onlar, yuzler, birler);
+                    break;
+
+
+            }
+
+            Console.ReadLine();
+
+				
+
+
+					AYDA Kİ KİLOYU HESAPLAYAN KOD
+
+
+	    Console.WriteLine("kilonuzu girin");
+            int kilo = int.Parse(Console.ReadLine());
+            int ayda = (kilo * 17) / 100;
+            Console.WriteLine("aydaki kilonuz:" + ayda);
+
+
+
+
+					GİRİLEN SAYININ 100LER BASAMAGINI KONTROL EDEN KOD
+
+
+
+	    Console.WriteLine("bir sayi girin");
+            int sayi = int.Parse(Console.ReadLine());
+            if (sayi/100==7)
+            {
+                Console.WriteLine("girilen sayinin 100'ler basamagi 7'dir" + sayi / 100);
+            }
+            else
+            {
+                Console.WriteLine("girdiginiz sayinin 100'ler basamagı 7 degildir.");
+            }
+            Console.ReadKey();
+	
+
+
+
+					GİRİLEN SAYININ 5 VE 7'E TAM BÖLÜNMESİ
+
+
+
+
+	    Console.WriteLine("bir sayi girin");
+            int sayi = int.Parse(Console.ReadLine());
+            if (sayi % 35 == 0)
+            {
+                Console.WriteLine("sayi 5 ve 7'e tam bölünür");
+            }
+            else
+            {
+                Console.WriteLine("sayi 5 ve 7'e tam bölünmez ");
+            }
+            Console.ReadKey();
+
+
+	İKİNCİ YÖNTEM:
+		
+
+	    int say = 0;
+            int[] S = new int[10];
+            Console.WriteLine("10 adet 3 basamklı tamsayıyı giriniz");
+
+            for (int i = 0; i < 10; i++)
+            {
+            label1:
+                S[i] = int.Parse(Console.ReadLine());
+                if (S[i] < 100 || S[i] > 999)
+                {
+                    Console.WriteLine("bu sayının hatalı girdiniz litfen tekrar deneyin");
+                    goto label1;
+                }
+                else
+                {
+                    if (S[i] % 35 == 0)
+                    {
+                        say += 1;
+                    }
+                }
+            }
+            Console.WriteLine("girdiğiniz 10 adet 3 basamklı sayıdan {0} adeti hem 5 hemde 7 ye kalansız olarak bölünebilir", say);
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+
+
+					GİRİLEN SAYILARI BÜYÜKTEN KÜCÜGE SIRALAYAN KOD
+
+
+
+
+
+	    Console.WriteLine("3 tane ondalık rakam giriniz");
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            int z = int.Parse(Console.ReadLine());
+
+            if (x > y && x > z && y > z)
+            {
+                Console.WriteLine("{0}>{1}>{2}",x,y,z);
+            }
+            if (x > y && x > z && y < z)
+            {
+                Console.WriteLine("{0}>{1}>{2}", x, z, y);
+            }
+            if (x < y && x > z )
+            {
+                Console.WriteLine("{0}>{1}>{2}", y, x, z);
+            }
+            if (x < y && x < z && y > z)
+            {
+                Console.WriteLine("{0}>{1}>{2}", y, z, x);
+            }
+            if (x < y && x < z && y < z)
+            {
+                Console.WriteLine("{0}>{1}>{2}", z, y, x);
+            }
+            if (x > y && x < z)
+            {
+                Console.WriteLine("{0}>{1}>{2}", z, y, x);
+            }
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+					TEK Mİ CİFT Mİ KODU
+
+
+
+
+      	    Console.WriteLine("bir sayi girin");
+            int sayi = int.Parse(Console.ReadLine());
+            if (sayi % 2 == 0)
+            {
+                Console.WriteLine("sayi cifttir");
+            }
+            else
+            {
+                Console.WriteLine("sayi tektir ");
+            }
+            Console.ReadKey();
