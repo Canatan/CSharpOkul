@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace testalanı
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("4 Adet Sayı Giriniz");
+
+            int check = 0;
+
+            int sayi1 = int.Parse(Console.ReadLine());
+            int sayi2 = int.Parse(Console.ReadLine());
+            int sayi3 = int.Parse(Console.ReadLine());
+            int sayi4 = int.Parse(Console.ReadLine());
+
+            check = sayi1;
+            if (sayi2 > check)
+            {
+                sayi2 = check;
+            }
+            if (sayi3 > check)
+            {
+                sayi3 = check;
+            }
+            if (sayi3 > check)
+            {
+                sayi4 = check;
+            }
+            Console.WriteLine(" En büyük Sayı : " + check);
+            Console.ReadLine();
+
+        }
+    }
+}
