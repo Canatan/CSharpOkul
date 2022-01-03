@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace yamukalan
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Alt tabanı giriniz");
+            int alt = int.Parse(Console.ReadLine());
+            Console.WriteLine("Üst tabanı giriniz");
+            int ust = int.Parse(Console.ReadLine());
+            Console.WriteLine("Yükseklik giriniz");
+            int yukseklik = int.Parse(Console.ReadLine());
+
+            int sonuc;
+
+            sonuc = alt + ust * yukseklik;
+
+            Console.WriteLine("Yamuğun Alanı " + sonuc);
+            Console.ReadLine();
+
+
+        }
+    }
+}
