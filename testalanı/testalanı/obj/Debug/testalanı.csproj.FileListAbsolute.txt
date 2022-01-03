@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\testalanı\testalanı\bin\Debug\testalanı.exe.config
+C:\Users\canat\source\repos\testalanı\testalanı\bin\Debug\testalanı.exe
+C:\Users\canat\source\repos\testalanı\testalanı\bin\Debug\testalanı.pdb
+C:\Users\canat\source\repos\testalanı\testalanı\obj\Debug\testalanı.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\testalanı\testalanı\obj\Debug\testalanı.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\testalanı\testalanı\obj\Debug\testalanı.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\testalanı\testalanı\obj\Debug\testalanı.exe
+C:\Users\canat\source\repos\testalanı\testalanı\obj\Debug\testalanı.pdb
