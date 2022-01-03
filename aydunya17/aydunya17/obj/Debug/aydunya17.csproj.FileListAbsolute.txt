@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\aydunya17\aydunya17\bin\Debug\aydunya17.exe.config
+C:\Users\canat\source\repos\aydunya17\aydunya17\bin\Debug\aydunya17.exe
+C:\Users\canat\source\repos\aydunya17\aydunya17\bin\Debug\aydunya17.pdb
+C:\Users\canat\source\repos\aydunya17\aydunya17\obj\Debug\aydunya17.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\aydunya17\aydunya17\obj\Debug\aydunya17.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\aydunya17\aydunya17\obj\Debug\aydunya17.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\aydunya17\aydunya17\obj\Debug\aydunya17.exe
+C:\Users\canat\source\repos\aydunya17\aydunya17\obj\Debug\aydunya17.pdb
