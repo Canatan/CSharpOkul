@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\obj\Debug\Dikucgen.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\obj\Debug\Dikucgen.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\bin\Debug\Dikucgen.exe.config
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\bin\Debug\Dikucgen.exe
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\bin\Debug\Dikucgen.pdb
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\obj\Debug\Dikucgen.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\obj\Debug\Dikucgen.exe
+C:\Users\canat\source\repos\Dikucgen\Dikucgen\obj\Debug\Dikucgen.pdb
