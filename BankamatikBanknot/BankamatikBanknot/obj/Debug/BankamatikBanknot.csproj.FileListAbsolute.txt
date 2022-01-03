@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\bin\Debug\BankamatikBanknot.exe.config
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\bin\Debug\BankamatikBanknot.exe
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\bin\Debug\BankamatikBanknot.pdb
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\obj\Debug\BankamatikBanknot.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\obj\Debug\BankamatikBanknot.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\obj\Debug\BankamatikBanknot.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\obj\Debug\BankamatikBanknot.exe
+C:\Users\canat\source\repos\BankamatikBanknot\BankamatikBanknot\obj\Debug\BankamatikBanknot.pdb
