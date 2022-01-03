@@ -1,0 +1,84 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankamatikBanknot
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            
+
+            Console.WriteLine("Lütfen Çekmek İstediğiniz Miktarı Giriniz");
+            int miktar = int.Parse(Console.ReadLine());
+            int c200 = 0;
+            int c100 = 0;
+            int c50 = 0;
+            int c20 = 0;
+            int c10 = 0;
+            int c5 = 0;
+            int c1 = 0;
+
+            if (miktar >= 200)
+            {
+                c200 = miktar / 200;
+                miktar = miktar % 200;
+
+            }
+            if (miktar >= 100) ;
+            {
+                c100 = miktar / 100;
+                miktar = miktar % 100;
+
+            }
+            if (miktar >= 50)
+            {
+                c50 = miktar / 50;
+                miktar = miktar % 50;
+
+            }
+            if (miktar >= 20)
+            {
+                c20 = miktar / 20;
+                miktar = miktar % 20;
+
+            }
+            if (miktar >= 10)
+            {
+                c10 = miktar / 10;
+                miktar = miktar % 10;
+
+            }
+            if (miktar >= 5)
+            {
+                c5 = miktar / 5;
+                miktar = miktar % 5;
+
+            }
+            if (miktar >= 1)
+            {
+                c1 = miktar = miktar / 1;
+                miktar = miktar % 1;
+
+            }
+
+            Console.WriteLine("200 Lük Banknot Adeti : {0}", c200);
+            Console.WriteLine("100 Lük Banknot Adeti : {0}", c100);
+            Console.WriteLine("50 Lik Banknot Adeti : {0}", c50);
+            Console.WriteLine("20 Lik Banknot Adeti : {0}", c20);
+            Console.WriteLine("10 Luk Banknot Adeti : {0}", c10);
+            Console.WriteLine("5 Lik Banknot Adeti : {0}", c5);
+            Console.WriteLine("1 Lik Bozukluk Adeti : {0}", c1);
+
+            Console.ReadKey();
+
+
+
+
+        }
+    }
+}
