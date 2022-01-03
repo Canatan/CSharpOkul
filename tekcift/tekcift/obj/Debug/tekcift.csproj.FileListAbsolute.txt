@@ -1,0 +1,8 @@
+C:\Users\canat\source\repos\tekcift\tekcift\bin\Debug\tekcift.exe.config
+C:\Users\canat\source\repos\tekcift\tekcift\bin\Debug\tekcift.exe
+C:\Users\canat\source\repos\tekcift\tekcift\bin\Debug\tekcift.pdb
+C:\Users\canat\source\repos\tekcift\tekcift\obj\Debug\tekcift.csproj.AssemblyReference.cache
+C:\Users\canat\source\repos\tekcift\tekcift\obj\Debug\tekcift.csproj.SuggestedBindingRedirects.cache
+C:\Users\canat\source\repos\tekcift\tekcift\obj\Debug\tekcift.csproj.CoreCompileInputs.cache
+C:\Users\canat\source\repos\tekcift\tekcift\obj\Debug\tekcift.exe
+C:\Users\canat\source\repos\tekcift\tekcift\obj\Debug\tekcift.pdb
