@@ -1,3 +1,78 @@
+// namespace nedir
+
+/* - Birçok programlama dilinde, temel programlama işlemlerinin kolayca gerçekleştirilmesi için programcının hizmetine sunulan, önceden yazılmış hazır birçok faydalı standart haline gelmiş kütüphaneler bulunmaktadır.
+- Ancak C# programlama dili için hazır kütüphaneler bulunmamaktadır. Bunun yerine C# programlama dili için .NET Framework’te temel programlama işlemlerini kolayca gerçekleştirmeyi sağlamak amacıyla programcının hizmetine sunulan, önceden yazılmış birçok faydalı temel türler ve sınıflar bulunmaktadır.
+- Bu sınıflar, programcı kod yazarken programcıya fayda sağlayacak birçok servisi, nesneyi, yapıları ve benzerlerini içerir.
+- Bu sınıfların mantıksal bir organizasyonu yapılarak sunulması gerekir. Böyle yapılırsa programcının bu sınıfları hatırlaması kolaylaşmakta ve rahatça kullanabilmesi sağlanmaktadır.
+- Bu mantıksal organizasyonu sağlayan namespace (isim alanı)’dır. Namespace (İsim alanı), benzer amaca hizmet eden sınıfların bir arada tutulmasıyla oluşan bir küme olarak düşünülebilir. Ancak bu küme sadece benzer amaca hizmet eden sınıfları değil başka isim alanlarını (namespace) da içerebilir. Yani bir isim alanı, hem bir sınıfı hem de başka bir isim alanını içerebilir. Çünkü .NET Framework sınıf kütüphanesi yapı olarak hiyerarşik bir yapı şeklinde yapılmıştır ve bu yüzden .NET Framework sınıf kütüphanesi için iç içe isim alanları tanımlanmıştır.
+
+*/
+
+//compareto kullanımı
+
+/*
+                .CompareTo() alfabetiksel olarak harfleri karşılaştırır.
+                -1 çıktısı ilk harfin ikincinin önünde olduğunu gösterir.
+                0 çıktısı harflerin aynı olduğunu gösterir.
+                +1 çıktısı ise ilk harfin ikinci harfin gerisinde olduğunu gösterir
+                
+
+ */
+            string metin1 = "ahmet";
+            string metin2 = "baran";
+
+            Console.WriteLine(metin1.CompareTo(metin2)); // Çıktı: -1
+            Console.WriteLine(metin2.CompareTo(metin2)); // Çıktı: 0
+            Console.WriteLine(metin2.CompareTo(metin1)); // Çıktı: +1
+
+
+
+// metni tersten yazdırma
+
+string metin = "mustafa";
+            for(int i=0; i < metin.Length; i++)
+            {
+                Console.WriteLine(metin[i]); // çıktıs: mustafa
+            }
+
+     ---------------------------------------------------------------------------
+
+            for (int i = metin.Length; i > 0; i--)
+            {
+                Console.WriteLine(metin[i-1]); // çıktısı: afatsum 
+            }
+
+
+
+// String’ler bellekte karakterler dizisi halinde tutulurlar. 
+
+string isim = "mustafa";
+            Console.WriteLine(isim[0]);
+            Console.WriteLine(isim[1]);
+            Console.WriteLine(isim[2]);
+            Console.WriteLine(isim[3]);
+/*
+	Programın çıktısı;
+	m
+	u
+	s
+	t
+*/
+
+
+//Metindeki kelimeyi değiştirme
+
+string metin = "gs spor klubu";
+            string metin2 = @"\bgs \b";
+            string degistir = "galatasaray ";
+
+            Console.WriteLine(Regex.Replace(metin,metin2,degistir));
+// çıktı: galatasaray spor klubu
+
+
+
+
+
 
 // artik yil veren kod
 
